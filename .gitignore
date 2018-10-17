@@ -1,3 +1,8 @@
+src
+*.mbtiles
+*.mbtiles-journal
+*.ndjson
+
 # Logs
 logs
 *.log

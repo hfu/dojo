@@ -1,0 +1,6 @@
+{
+  sources: [
+    src/全国農耕地土壌図/全国農耕地HP.shp
+  ]
+  encoding: Shift_JIS
+}
