@@ -14,5 +14,5 @@ $ mkdir src
 $ (download the zip file and extract the shepfile)
 $ npm install
 $ node index.js > dojo.ndjson
-$ tippecanoe -f -o dojo.mbtiles --maximum-zoom=12 --name=縮尺5万分の１農耕地包括土壌図 --attribution=農業・食品産業技術総合研究機構農業環境変動研究センター dojo.ndjson
+$ $ tippecanoe -f -o dojo.mbtiles --maximum-tile-bytes=262144 --base-zoom=12 --simplification=2 --drop-smallest-as-needed --minimum-zoom=7 --maximum-zoom=12 --name=縮尺5万分の１農耕地包括土壌図 --attribution=農業・食品産業技術総合研究機構農業環境変動研究センター dojo.ndjson
 ```

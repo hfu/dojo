@@ -1,7 +1,7 @@
 const config = require('config')
 const shapefile = require('shapefile')
 const geojsonArea = require('@mapbox/geojson-area')
-const F = 21
+const F = 19
 
 const dump = (f) => {
   f.properties.code = f.properties['統群コード']
